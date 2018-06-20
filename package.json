@@ -1,0 +1,28 @@
+{
+  "name": "rzero-store-extras",
+  "version": "1.0.0",
+  "description": "Supercharged redux-zero store",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "src/"
+  ],
+  "peerDependencies": {
+    "redux-zero": "^4.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jetako/rzero-store-extras.git"
+  },
+  "keywords": [
+    "redux-zero"
+  ],
+  "author": "Jesse Cooper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jetako/rzero-store-extras/issues"
+  },
+  "homepage": "https://github.com/jetako/rzero-store-extras#readme"
+}
