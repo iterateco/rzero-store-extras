@@ -7,9 +7,8 @@ Supercharged [redux-zero](https://github.com/concretesolutions/redux-zero) store
 
 ## Example
 
+### store.js
 ```javascript
-// store.js
-
 import { createStore, storeInjectorMiddleware } from 'rzero-store-extras'
 
 const initialState = {
@@ -22,9 +21,10 @@ const initialState = {
 const middleware = applyMiddleware([storeInjectorMiddleware])
 
 export default createStore(initialState, middleware)
+```
 
-// actions.js
-
+### actions.js
+```javascript
 import { StoreContext } from 'rzero-store-extras'
 
 const context = new StoreContext('counters')
