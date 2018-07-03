@@ -6,7 +6,7 @@ export class StoreContext {
   }
 
   get(state) {
-    return state[this.getkey]
+    return state[this.key]
   }
 
   set(state, obj) {

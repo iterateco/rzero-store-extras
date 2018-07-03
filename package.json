@@ -1,6 +1,6 @@
 {
   "name": "rzero-store-extras",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Supercharged redux-zero store",
   "main": "src/index.js",
   "scripts": {
