@@ -1,6 +1,6 @@
 import createReduxZeroStore from 'redux-zero'
 
-export class StoreContext {
+export class StateContext {
   constructor(key) {
     this.key = key
   }

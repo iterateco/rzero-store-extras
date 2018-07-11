@@ -25,9 +25,9 @@ export default createStore(initialState, middleware)
 
 ### actions.js
 ```javascript
-import { StoreContext } from 'rzero-store-extras'
+import { StateContext } from 'rzero-store-extras'
 
-const context = new StoreContext('counters')
+const context = new StateContext('counters')
 
 export const incrementCounterA = (state, amount) => {
   const { a } = context.get(state)
